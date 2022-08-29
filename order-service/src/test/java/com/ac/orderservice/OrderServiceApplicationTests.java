@@ -52,7 +52,7 @@ class OrderServiceApplicationTests {
 
     }
 
-    @Test
+/*    @Test
     void shouldAddOrder() throws Exception {
         OrderRequest orderRequest = getOrderRequest();
         String orderRequestString = objectMapper.writeValueAsString(orderRequest);
@@ -62,7 +62,7 @@ class OrderServiceApplicationTests {
                 .andExpect(status().isCreated());
         Assertions.assertEquals(1, orderRepository.findAll().size());
 
-    }
+    }*/
 
     private OrderRequest getOrderRequest() {
         return OrderRequest.builder()
